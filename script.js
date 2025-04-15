@@ -5,7 +5,7 @@ let lockBoard = false;
 const cards = document.querySelectorAll('.card');
 const statusMessage = document.getElementById('statusMessage');
 
-// Shuffle cards on load
+
 shuffleCards();
 
 cards.forEach(card => {

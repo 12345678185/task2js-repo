@@ -6,6 +6,7 @@ const cards = document.querySelectorAll('.card');
 const statusMessage = document.getElementById('statusMessage');
 
 
+
 shuffleCards();
 
 cards.forEach(card => {
